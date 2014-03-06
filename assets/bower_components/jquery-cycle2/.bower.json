@@ -1,0 +1,34 @@
+{
+  "name": "jquery-cycle2",
+  "version": "2.1.0",
+  "homepage": "https://github.com/malsup/cycle2",
+  "authors": [
+    "malsup <malsup@gmail.com>"
+  ],
+  "description": "jQuery plugin for kickass slideshows",
+  "main": "build/jquery.cycle2.js",
+  "keywords": [
+    "slideshow",
+    "carousel",
+    "jquery",
+    "cycle2"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "2.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.1.0",
+    "commit": "3556aa5c7d65e7924a4d3954d46ac9437034829e"
+  },
+  "_source": "git://github.com/malsup/cycle2.git",
+  "_target": "~2.1.0",
+  "_originalSource": "jquery-cycle2",
+  "_direct": true
+}

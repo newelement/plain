@@ -1,0 +1,118 @@
+/*
+    TABLES
+    
+    Basic usage
+    
+    <table cellpadding="0" cellspacing="0" class="table">
+        <thead>
+            <tr>
+                <th>Col1</th><th>Col2</th><th>Col3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>text</td><td>text</td><td>text</td>
+            </tr>
+            <tr>
+                <td>text</td><td>text</td><td>text</td>
+            </tr>
+        </tbody>
+    </table>
+
+    OPTIONS --------------------------
+    
+    .condensed - less padding on cells
+    .bordered - border around table
+    .row-borders - borders on rows
+    .col-borders - borders on colums left/right sides
+    .all-borders - borders around everything
+    
+    ----------------------------------
+    
+    For table sorting use the table sorter plugin:
+    (CSS and images already implemented, plugin in js folder)
+    http://tablesorter.com/docs/
+    
+    For responsive tables use the ZURB responsive table javascript:
+    (CSS already implemented, javascript in js folder)
+    http://www.zurb.com/playground/responsive-tables
+
+*/
+
+.table {
+    border-collapse: separate;
+	margin: 0 0 (@defaultlineheight / @defaultfontsize)+0em 0;
+	width: 100%;
+	text-align: left;
+	.border-radius;
+	
+	thead tr th, tfoot tr th {
+    	background-color: @table-header-background-color;
+    	color: @table-header-text-color;
+    	padding: 12px 10px 12px 10px;
+    }
+	
+	tbody td {
+    	color: @table-cell-text-color;
+    	padding: 12px 10px 12px 10px;
+    	background-color: @table-cell-background-color-normal;
+    	vertical-align: top;
+	}
+	
+	tfoot td {
+        padding: 12px 10px 12px 10px;
+    	font-weight: 700;
+    	background-color: @table-footer-cell-background-color;
+    }
+    
+}
+
+/* Borders */
+.table.bordered, .table.all-borders{ border: 1px solid @table-border-color }
+.table.row-borders tr td, .table.all-borders tr td{ border-top: 1px solid @table-border-color }
+.table.col-borders td, 
+.table.all-borders td, 
+.table.all-borders th { border-right: 1px solid @table-border-color }
+.table.col-borders td:last-child, 
+.table.all-borders td:last-child, 
+.table.all-borders th:last-child { border-right: none }
+.table.all-borders th, .table.all-borders td, .table.row-borders tr th, .table.row-borders tr td{ padding: 11px 10px 12px 10px }
+
+
+/* Tablesorter plugin */
+.table thead tr .header { background-image: url(images/bg-2.gif); background-repeat: no-repeat; background-position: center right; cursor: pointer }
+.table thead tr .headerSortUp { background-image: url(images/asc.gif) }
+.table thead tr .headerSortDown { background-image: url(images/desc.gif) }
+.table thead tr .headerSortDown, .table thead tr .headerSortUp { background-color: @table-header-sorted-background-color }
+/* ---- */
+
+
+/* condensed */
+.table.condensed tbody td, .table.condensed thead th, .table tfoot td { padding: 0 5px; font-size: 0.875em; line-height: 1.7 }
+/* striping */
+.table tbody tr.odd td, .table tbody tr.r1 td { background-color: @table-cell-background-color-normal }
+.table tbody tr.even td, .table tbody tr.r0 td { background-color: @table-cell-background-color-even }
+/* text alignment */
+td.align-left, th.align-left{ text-align: left }
+td.align-right, th.align-right{ text-align: right }
+td.align-center, th.align-center{ text-align: center }
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+	
+	table.responsive { margin-bottom: 0; }
+	
+	.pinned { position: absolute; left: 0; top: 0; background: #fff; width: 35%; overflow: hidden; overflow-x: scroll; border-right: 1px solid #ccc; border-left: 1px solid #ccc; }
+	.pinned table { border-right: none; border-left: none; width: 100%; }
+	.pinned table th, .pinned table td { white-space: nowrap; }
+	.pinned td:last-child { border-bottom: 0; }
+	
+	div.table-wrapper { position: relative; margin-bottom: 20px; overflow: hidden; border-right: 1px solid #ccc; }
+	div.table-wrapper div.scrollable table { margin-left: 35%; }
+	div.table-wrapper div.scrollable { overflow: scroll; overflow-y: hidden; }	
+	
+	table.responsive td, table.responsive th { position: relative; white-space: nowrap; overflow: hidden; }
+	table.responsive th:first-child, table.responsive td:first-child, table.responsive td:first-child, table.responsive.pinned td { display: none; }
+	
+}

@@ -1,0 +1,109 @@
+/* Resetting some styles, just in case :D */
+
+ /* -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;*/
+
+
+body { padding-top: 4.5em !important }
+
+
+/* Adding @font-face for the icons */
+@font-face{ 
+	font-family: 'WebSymbolsRegular';
+	src: url('../fonts/devbar/websymbols-regular-webfont.eot');
+	src: url('../fonts/devbar/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/devbar/websymbols-regular-webfont.woff') format('woff'),
+	     url('../fonts/devbar/websymbols-regular-webfont.ttf') format('truetype'),
+	     url('../fonts/devbar/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+	}
+
+.devbar-base{
+    font-size: (@defaultfontsize)*1px;
+    line-height: (@defaultlineheight)*1px;
+    display: none;
+}
+
+
+/* Baseline grid - 21px */	
+.development-baseline-grid {
+	/*background: transparent url('images/development-baseline.png') 0 0;*/
+	width: 100%;
+	position: absolute;
+	top: 4.5em;
+	left: 0;
+	z-index: 1998;
+	display: none;
+	
+	background-image: -webkit-linear-gradient(hsla(200,100%,70%,.5) 1px, transparent 1px);
+    background-image: -moz-linear-gradient(hsla(200,100%,70%,.5) 1px, transparent 1px);
+    background-image: linear-gradient(hsla(200,100%,70%,.5) 1px, transparent 1px);
+    margin-top: -1px;
+    padding: 1.5em;
+    
+    /* Need to set this dynamic */
+    background-size: (@defaultlineheight / @defaultfontsize)*1em  (@defaultlineheight / @defaultfontsize)*1em; padding-top: (@defaultlineheight)+0px;
+}
+
+/* 960px Skeleton Grid */	
+.development-skeleton-960-grid {
+	background: transparent url('images/development-skeleton-960-grid.png') top center repeat-y;
+	width: 100%;
+	position: absolute;
+	top: 4.5em;
+	left: 0;
+	z-index: 1998;
+	display: none;
+}
+
+
+/* Development bar */
+.development-bar {
+	background-color: #171819;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3b3e41), to(#171819));
+	background-image: -webkit-linear-gradient(top, #3b3e41, #171819);
+	background-image:    -moz-linear-gradient(top, #3b3e41, #171819);
+	background-image:     -ms-linear-gradient(top, #3b3e41, #171819);
+	background-image:      -o-linear-gradient(top, #3b3e41, #171819);
+	background-image:         linear-gradient(to bottom, #3b3e41, #171819);
+	
+	
+	position: fixed;
+	z-index: 1999;
+
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	
+	text-align: center;
+	
+	list-style-type: none;
+}
+
+.development-bar {
+	margin: 0;
+}	
+
+.development-bar li {
+	height: 4.5em;
+	line-height: 4.5em;
+	color: white;
+	padding: 1em;
+	margin: 0 0.5em;
+	display: inline;
+	background-color: #3E4043;
+	
+	cursor: pointer;
+}
+
+	.development-bar li:hover { background-color: #e85606; }
+	
+.development-bar li span {
+	font: 1em "WebSymbolsRegular", sans-serif;
+	margin-right: 1em;
+}
+		
+
+
+

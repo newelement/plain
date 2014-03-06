@@ -1,0 +1,141 @@
+/* DO NOT REMOVE */
+@import 'modules/base';
+/* ------------- */
+
+/* CONTAINER */
+
+.container{ width: 960px; margin: 0 auto; padding: 0 10px; .box-sizing(border-box) } /* container base is 960 / 12 col / 10px gutter */
+
+
+
+/* 
+    MODULES 
+
+    Import the ones you need and make small mods below.
+
+*/
+
+
+@import 'modules/form'; /* Form styles */
+@import 'modules/table'; /* Table styles */
+@import 'modules/tooltip'; /* Tooltip styles */
+@import 'modules/popover'; /* Popover styles */
+@import 'modules/modal'; /* Modal styles */
+@import 'modules/buttons'; /* Button styles */
+@import 'modules/sidr'; /* off canvas nav styles */
+
+
+
+
+/* ---- HEADER ---- */
+
+.header{}
+
+.mobile-nav-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    span{
+        padding: 0 0 0 4px
+    }
+    
+}
+
+.main-nav{
+    display: block;
+    width: 100%;
+    float: left;
+    .em-bottom(12px);
+    
+    ul{
+        display: block;
+        width: 100%;
+        text-align: center;
+        list-style: none;
+    }
+    
+    ul li{
+        display: inline-block;
+        float: left;
+        width: 33%;
+    }
+    
+    ul li a{
+        display: block;
+        width: 100%;
+        padding: 12px 0;
+        text-decoration: none;
+    }
+    
+    ul li a:hover{
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        background: #f3f3f3;
+    }
+    
+}
+
+.slide{ .em-bottom(11px) }
+
+
+
+
+
+
+
+/* ---- SIDEBAR ---- */
+
+.sidebar{}
+
+
+
+
+
+
+/* ---- FOOTER ---- */
+
+.footer{
+    width: 100%;
+    float: left;
+    background: #393939;
+    color: #fff;
+    text-align: center;
+    padding: 24px 0 0 0;
+    .font-nomargin(12);
+    
+    a{
+        color: #fff;
+    }
+    
+    a:hover{
+        color: #f3f3f3;
+    }
+    
+}
+
+
+
+
+
+
+/* Media Queries */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    
+    .container{ width: 100%; padding: 0 20px }
+    
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
