@@ -11,7 +11,7 @@
 /* 
     MODULES 
 
-    Import the ones you need and make small mods below.
+    Import the ones you need.
 
 */
 
@@ -29,11 +29,26 @@
 
 /* ---- HEADER ---- */
 
-.header{}
+.header{
+    width: 100%;
+}
+
+.mobile-main-nav-wrap{
+    width: 100%;
+    padding: .75em 1.5em;
+    font-size: 1.25em;
+    .box-sizing(border-box);   
+}
 
 .mobile-nav-button{
+    width: 20%;
+    display: inline-block;
+    float: left;
     text-decoration: none;
     text-transform: uppercase;
+    padding: 12px 0;
+    color: #fff;
+    .transition(all .2s ease-in);
     
     span{
         padding: 0 0 0 4px
@@ -41,23 +56,28 @@
     
 }
 
+.mobile-nav-button:hover{
+    color: #000;
+}
+
 .main-nav{
-    display: block;
-    width: 100%;
+    display: inline-block;
     float: left;
-    .em-bottom(12px);
+    width: 80%;
+    float: left;
+    color: #fff;
     
     ul{
         display: block;
         width: 100%;
-        text-align: center;
+        text-align: right;
         list-style: none;
     }
     
     ul li{
         display: inline-block;
-        float: left;
-        width: 33%;
+        float: right;
+        margin-left: 40px;
     }
     
     ul li a{
@@ -65,15 +85,27 @@
         width: 100%;
         padding: 12px 0;
         text-decoration: none;
+        color: #fff;
+        .transition(all .2s ease-in);
     }
     
     ul li a:hover{
         display: block;
         width: 100%;
         text-decoration: none;
-        background: #f3f3f3;
+        color: #000;
     }
     
+}
+
+.plain-hero{
+    width: 100%;
+    height: 432px;
+    background-repeat:no-repeat;
+    background-position:center;
+    .background-cover;
+    background-image: url('../images/plain.jpg');
+    .em-bottom(48px);
 }
 
 .slide{ .em-bottom(11px) }
@@ -132,7 +164,12 @@
 @media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    
+    .mobile-nav-button{ width: 100% }
+    .main-nav{ display: none }
+    
+}
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
