@@ -7605,7 +7605,7 @@
 		},
 	"\/assets\/bower_components\/jquery-cycle2\/src\/jquery.cycle2.swipe.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/bower_components\/jquery-cycle2\/src\/jquery.cycle2.swipe.js",
 		"outputAbbreviatedPath": "\/assets\/bower_components\/jquery-cycle2\/src\/jquery.cycle2.swipe.min.js",
@@ -9711,49 +9711,22 @@
 		"outputAbbreviatedPath": "\/assets\/bower_components\/normalize-css\/README.html",
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/bower_components\/sidr\/jquery.sidr.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/bower_components\/sidr\/jquery.sidr.min.js",
-		"outputAbbreviatedPath": "\/assets\/bower_components\/sidr\/jquery.sidr.min.min.js",
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/assets\/bower_components\/sidr\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/bower_components\/sidr\/README.md",
-		"outputAbbreviatedPath": "\/assets\/bower_components\/sidr\/README.html",
-		"outputPathIsSetByUser": 0
-		},
-	"\/assets\/bower_components\/sidr\/stylesheets\/jquery.sidr.dark.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/bower_components\/sidr\/stylesheets\/jquery.sidr.dark.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
-	"\/assets\/bower_components\/sidr\/stylesheets\/jquery.sidr.light.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/bower_components\/sidr\/stylesheets\/jquery.sidr.light.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/vendor\/modernizr\/modernizr-2.7.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/vendor\/modernizr\/modernizr-2.7.1.min.js",
 		"outputAbbreviatedPath": "\/assets\/vendor\/modernizr\/modernizr-2.7.1.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/vendor\/sidr\/jquery.sidr.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/vendor\/sidr\/jquery.sidr.js",
+		"outputAbbreviatedPath": "\/assets\/vendor\/sidr\/jquery.sidr.min.js",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
@@ -9806,6 +9779,25 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/css\/modules\/devbar.less",
 		"outputAbbreviatedPath": "\/css\/modules\/devbar.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 2,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/css\/modules\/fonts.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/modules\/fonts.less",
+		"outputAbbreviatedPath": "\/css\/modules\/fonts.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"relativeURLS": 0,
@@ -10061,6 +10053,26 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/plain2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 764832,
+		"inputAbbreviatedPath": "\/images\/plain2.jpg",
+		"outputAbbreviatedPath": "\/images\/plain2.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/plain3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 235510,
+		"inputAbbreviatedPath": "\/images\/plain3.jpg",
+		"outputAbbreviatedPath": "\/images\/plain3.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10120,8 +10132,14 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/assets\/bower_components\/sidr\/jquery.sidr.min.js",
+			"linkedFileAbbreviatedPath": "\/assets\/bower_components\/jquery-cycle2\/src\/jquery.cycle2.swipe.js",
 			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/assets\/vendor\/sidr\/jquery.sidr.js",
+			"position": 3,
 			"type": 0
 			}
 		]

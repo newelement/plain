@@ -1,11 +1,21 @@
+/* Container Size */
+@containerRoot: 1140;
+
 /* Baseline */
 @defaultfontsize: 16;
 @lineheight: 1.5;
 @defaultlineheight: @defaultfontsize*1.5;
 
+@font-path: "../fonts";
+
+@container: ( 0em + @containerRoot/@defaultfontsize );
+@containerMQSize: ( 0em + (@containerRoot - 1)/@defaultfontsize );
+@containerMQ: ~"only screen and (max-width: @{containerMQSize})";
+
+/* Default Colors */
 @background-color: #FFF;
-@body-text-color: #111;
-@header-text-color: #111;
+@body-text-color: #444;
+@header-text-color: #333;
 @link-primary: #222;
 @link-primary-hover: #555;
 

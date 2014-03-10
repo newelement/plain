@@ -1,6 +1,6 @@
 @import 'normalize';
 @import 'variables';
-@import '../../assets/bower_components/font-awesome/less/font-awesome.less';
+@import 'fonts';
 @import 'mixins';
 @import 'lesshat';
 @import 'grid';
@@ -10,7 +10,7 @@
 
 body {
 	background: @background-color;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	.open-sans;
 	font-size: 100%;
 	line-height: @lineheight;
 	color: @body-text-color;
@@ -19,8 +19,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color: @header-text-color;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	.open-sans-condensed;
+	text-transform: uppercase
 }
 
 h1 {
@@ -41,6 +41,7 @@ h4 {
 
 h5 {
     .font(18);
+    
 }
 
 h6 {
@@ -48,16 +49,12 @@ h6 {
 }
 
 
-p { 
-    .font(16) 
-}
-
 
 dl,
 ol,
 ul {
     .font(16);
-    padding: 0;
+    padding: 0 0 0 2.5em;
 }
 dd,
 dt,
@@ -71,7 +68,7 @@ li {
 
 /* ----- Links ----- */
 
-a { color: @link-primary; outline: 0 }
+a { color: @link-primary; outline: 0; .transition(color .2s ease-in); }
 a:hover, a:focus { color: @link-primary-hover  }
 p a, p a:visited { line-height: inherit }
 
