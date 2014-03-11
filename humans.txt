@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Don Jones -- Developer/Designer -- @newelement
 
 # THANKS
 
-    <name>
+    To all web developers and desigers
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, jQuery, Modernizr, Bootstrap, HTML5 Boilerplate

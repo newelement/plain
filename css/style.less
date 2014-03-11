@@ -243,9 +243,10 @@
            color: #777;
        }
     }
-    
+
     .mobile-main-nav-wrap{
         position: fixed;
+        top: 0;
         background-color:rgba(255,255,255,0.9);
         padding: .75em 1.5em;
         border-bottom: 1px solid #fff;
@@ -296,6 +297,17 @@
     width: 100%;
 }
 
+.secondary-page-hero{
+    width: 100%;  
+    min-height: 13.5em;
+    padding: 7.625em 0 0 0;
+    background-image: url('../images/plain.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    .background-cover;
+    .box-sizing(border-box); 
+}
+
 .slide{
     background-repeat:no-repeat;
     background-position:center;
@@ -316,7 +328,7 @@
     top: 45%;
     .transition(all .1s ease-in);
     text-align: center;
-    line-height: 44px;
+    line-height: 45px;
     z-index: 101;
     
     span{
@@ -396,8 +408,103 @@
 /* ---- PAGE STYLES COMMON ---- */
 
 .section{
-    padding: 3em 0;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
+
+.page-title{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* --- BLOG ---- */
+
+.blog-entry{
+    width: 100%;
+    float: left;
+    margin: 0 0 3em 0;   
+}
+
+.blog-header{
+    width: 100%;
+}
+
+.blog-title{
+    margin-bottom: 0;
+    a{
+        text-decoration: none;
+    }
+}
+
+.blog-date-author{
+    color: #888;
+    .font-nomargin(14);
+    margin: 0 0 1.5em 0;
+}
+
+.blog-footer{
+    width: 100%;
+}
+
+.shares, .read-more{
+    .box-sizing(border-box);  
+}
+.shares{
+    width: 72%;
+    float: left;
+}
+.read-more{
+    width: 28%;
+    float: right;
+}
+
+.shares a{
+    text-decoration: none;
+}
+
+.sharrre{
+    display: inline-block;
+    float: left;
+    margin: 0 .625em .75em 0;
+}
+.sharrre:last-child{
+    margin-right: 0;
+}
+
+.share-box{
+    display: block;
+    color: #667;
+    .font-nomargin(13);
+    border: 2px solid #667;
+    .border-radius(3px);
+    text-align: center;
+    padding: 0 .375em 0 .25em;
+    cursor: pointer;
+}
+
+.share-box .share-name{
+    .font-nomargin(11);
+}
+
+.share-box:hover{
+    color: #fff;
+    background: #667;
+}
+
+.continue-reading-link{
+    .font-nomargin(15);
+    .open-sans-condensed;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 
 
 
@@ -523,10 +630,32 @@
     .main-nav{ display: none }
     .slide{ height: 432px }
     
+    .shares{ 
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+    .read-more{
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-bottom: 1.5em;
+    }
+    .share-name{ display: none; }
+    
     .copyright{ text-align: center }
     
 }
 
 @media only screen and (max-width: 29.9375em) { /* 479px */
+    
+    img.align-right,
+    img.align-left,
+    a img.align-right,
+    a img.align-left{
+        display: block;
+        float: none;
+        clear: both;
+        margin: 0 auto;
+    }
     
 }

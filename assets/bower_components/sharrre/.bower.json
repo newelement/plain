@@ -1,0 +1,15 @@
+{
+  "name": "sharrre",
+  "homepage": "https://github.com/Julienh/Sharrre",
+  "version": "1.3.5",
+  "_release": "1.3.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.3.5",
+    "commit": "4ce818e96bfffc493f10d7e86cbb1e068aad30da"
+  },
+  "_source": "git://github.com/Julienh/Sharrre.git",
+  "_target": "~1.3.5",
+  "_originalSource": "sharrre",
+  "_direct": true
+}

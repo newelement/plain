@@ -9711,6 +9711,53 @@
 		"outputAbbreviatedPath": "\/assets\/bower_components\/normalize-css\/README.html",
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/bower_components\/sharrre\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/bower_components\/sharrre\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/bower_components\/sharrre\/jquery.sharrre.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/assets\/bower_components\/sharrre\/jquery.sharrre.js",
+		"outputAbbreviatedPath": "\/assets\/bower_components\/sharrre\/jquery.sharrre.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/bower_components\/sharrre\/jquery.sharrre.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/bower_components\/sharrre\/jquery.sharrre.min.js",
+		"outputAbbreviatedPath": "\/assets\/bower_components\/sharrre\/jquery.sharrre.min.min.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/bower_components\/sharrre\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/bower_components\/sharrre\/README.md",
+		"outputAbbreviatedPath": "\/assets\/bower_components\/sharrre\/README.html",
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/bower_components\/sharrre\/sharrre.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/bower_components\/sharrre\/sharrre.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/vendor\/modernizr\/modernizr-2.7.1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -9730,6 +9777,14 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/blog.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/blog.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
 		},
 	"\/css\/modules\/base.less": {
 		"allowInsecureImports": 0,
@@ -10043,6 +10098,22 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/footer.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/footer.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
+	"\/header.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/header.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/plain.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10073,11 +10144,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/index.html": {
+	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
+		"inputAbbreviatedPath": "\/index.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -10111,6 +10182,14 @@
 		"inputAbbreviatedPath": "\/readme.md",
 		"outputAbbreviatedPath": "\/readme.html",
 		"outputPathIsSetByUser": 0
+		},
+	"\/sharrre.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sharrre.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -10140,6 +10219,12 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/assets\/vendor\/sidr\/jquery.sidr.js",
 			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/assets\/bower_components\/sharrre\/jquery.sharrre.js",
+			"position": 4,
 			"type": 0
 			}
 		]
@@ -10291,7 +10376,7 @@
 	"javascriptOutputStyle": 1,
 	"javascriptOutputSuffix": ".min",
 	"javascriptSyntaxCheckerStyle": 1,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "Modernizr, google",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
