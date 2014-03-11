@@ -1,0 +1,113 @@
+.button{
+    display: inline-block;
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    background: #777;
+    white-space: nowrap;
+    padding: .5em .75em;
+    .font-rem(14);
+    line-height: 1.5;
+    text-decoration: none;
+    outline: none;
+    .transition(all .2s ease-in);
+    .border-radius(3px);
+}
+
+.button:hover{
+    background-color: #999;
+    color: #fff;
+}
+
+.button:focus,
+a.button:active,
+a.button:focus{
+    background-color: #333;
+    color: #fff;
+}
+
+.button.inverse{
+   color: #fff;
+   background: none; 
+}
+
+.button.bordered{
+    border: 2px solid #333;   
+}
+
+/* Colors */
+
+.button.primary{
+    background-color: @primary;
+}
+
+.button.success{
+    background-color: @success;
+}
+
+.button.error{
+    background-color: @error;
+}
+
+.button.warning{
+    background-color: @warning;
+}
+/* hover*/
+.button.primary:hover{
+    background-color: @primary-hover;
+}
+
+.button.success:hover{
+    background-color: @success-hover;
+}
+
+.button.error:hover{
+    background-color: @error-hover;
+}
+
+.button.warning:hover{
+    background-color: @warning-hover;
+}
+
+/* focus */
+.button.primary:focus,
+a.button.primary:active{
+    background-color: @primary-focus;
+}
+
+.button.success:focus,
+a.button.success:active{
+    background-color: @success-focus;
+}
+
+.button.error:focus,
+a.button.error:active{
+    background-color: @error-focus;
+}
+
+.button.warning:focus,
+a.button.warning:active{
+    background-color: @warning-focus;
+}
+
+/* Sizes */
+
+.button.small{
+    .font-rem(12);
+    padding: .375em .5em;
+}
+
+.button.tiny{
+    .font-rem(11);
+    padding: .25em .375em;
+}
+
+.button.large{
+    .font-rem(18);
+    line-height: 1.8;
+    padding: .375em .625em;
+}

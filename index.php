@@ -10,7 +10,11 @@
                         <h1>Plain Website</h1>
                 
                         <p>
-                        lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        This is just a website repository of things I'm tired of repeating or layouts that could be recycled because they've been coded and tested to work. I've also curated some scripts that I use regularly on websites. I may not use all of the scripts on this site, but may do so on future projects.
+                        </p>
+                        
+                        <p>
+                        The organization of files and folders may not be optimal at the moment, but will improve over time. Copy at will.
                         </p>
                         
                         <h1>Heading 1</h1>
@@ -33,17 +37,28 @@
                             <li>Lorem ipsum dolor sit amet</li>
                         </ul>
                         
+                        <p>
+                            <button class="button">Button .button</button> <a class="button" href="#" role="button">Anchor .button</a>
+                        </p>
+                        
+                        <p>
+                            <button class="button tiny">.button .tiny</button> <button class="button small">.button .small</button> <button class="button large">.button .large</button>
+                        </p>
+                        
+                        <p>
+                            <button class="button primary">.button .primary</button> <button class="button success">.button .success</button>
+                        </p>
+                        
+                        <p>
+                            <button class="button warning">.button .warning</button> <button class="button error">.button .error</button>
+                        </p>
+                        
+                        
                     
                     </div><!-- END .span7 -->
                     
                     
-                    <aside class="span4 pull-right sidebar">
-                        <h3>My Sidebar</h3>
-                        <p>
-                        lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>
-                        <img src="http://placehold.it/300x200" alt="placeholder" width="300" height="200" class="max-width">
-                    </aside><!-- END .sidebar -->
+
                     
                 </div> <!-- END .row -->
             </section><!-- // END .container.section -->

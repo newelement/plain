@@ -6,11 +6,14 @@
 @lineheight: 1.5;
 @defaultlineheight: @defaultfontsize*1.5;
 
+/*  Globals */
+@border-radius: 3px;
 @font-path: "../fonts";
 
 @container: ( 0em + @containerRoot/@defaultfontsize );
 @containerMQSize: ( 0em + (@containerRoot - 1)/@defaultfontsize );
 @containerMQ: ~"only screen and (max-width: @{containerMQSize})";
+
 
 /* Default Colors */
 @background-color: #FFF;
@@ -19,8 +22,26 @@
 @link-primary: #222;
 @link-primary-hover: #555;
 
-/*  Globals */
-@border-radius: 3px;
+@primary: #6666ff;
+@success: #00ad70;
+@info:    #5bc0de;
+@warning: #b4b600;
+@danger:  #d60000;
+@error:  #d60000;
+
+@primary-hover: lighten(@primary, 10%);
+@success-hover: lighten(@success, 10%);
+@info-hover: lighten(@info, 10%);
+@warning-hover: lighten(@warning, 6%);
+@danger-hover: lighten(@danger, 18%);
+@error-hover: lighten(@error, 18%);
+
+@primary-focus: darken(@primary, 12%);
+@success-focus: darken(@success, 8%);
+@info-focus: darken(@info, 12%);
+@warning-focus: darken(@warning, 12%);
+@danger-focus: darken(@danger, 6%);
+@error-focus: darken(@error, 6%);
 
 /* Table colors */
 @table-border-color: #CCC;
