@@ -39,6 +39,10 @@
     </IfModule>
 </IfModule>
 
+<ifModule mod_headers.c>
+Header set Connection keep-alive
+</ifModule>
+
 # ------------------------------------------------------------------------------
 # | Web fonts access                                                           |
 # ------------------------------------------------------------------------------

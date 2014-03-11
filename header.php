@@ -22,11 +22,11 @@
                     </a>
                     <!-- LOGO -->
                     <div class="logo">
-                        <h1><a href="#">Plain.</a></h1>
+                        <h1><a href="/">Plain.</a></h1>
                     </div>
                     <nav class="main-nav">
                         <ul>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="#">Pages <i class="fa fa-angle-down"></i></a>
                                 <ul>
                                     <li><a href="blog.php">Blog</a></li>

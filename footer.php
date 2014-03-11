@@ -3,7 +3,7 @@
                     <div class="span4">
                         <nav class="footer-nav">
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="#">Pages</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">About</a></li>
