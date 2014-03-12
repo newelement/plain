@@ -34,12 +34,7 @@
                                     <li><a href="#">Page Type 3</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Services <i class="fa fa-angle-down"></i></a>
-                                <ul>
-                                    <li><a href="#">Service 1</a></li>
-                                    <li><a href="#">Service 2</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="styles.php">Styles</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Contact <i class="fa fa-angle-down"></i></a>
                                 <ul>

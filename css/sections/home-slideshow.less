@@ -1,0 +1,91 @@
+.slide{
+    background-repeat:no-repeat;
+    background-position:center;
+    .background-cover;
+    width: 100%;
+    height: 600px;
+}
+
+.cycle-advance{
+    display: block;
+    width: 44px;
+    height: 44px;
+    color: #fff;
+    font-size: 20px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    position: absolute;
+    top: 45%;
+    .transition(all .1s ease-in);
+    text-align: center;
+    line-height: 45px;
+    z-index: 101;
+    
+    span{
+        display: none;
+    }
+    
+}
+
+.cycle-prev{
+    left: 1.5em;
+}
+
+.cycle-next{
+    right: 1.5em;
+}
+
+.cycle-advance:hover{
+    background-color: rgba(255,255,255,.5);
+}
+
+.cycle-pager{
+    display: block;
+    width: 100%;
+    padding: 0 1.5em;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    .box-sizing(border-box);
+    list-style: none;
+    z-index: 100;
+    
+    li{
+        display: inline-block;
+        margin-left: .625em;
+    }
+    li:first-child{
+        margin-left: 0;
+    }
+    
+    li a{
+        display: block;
+        width: 14px;
+        height: 14px;
+        border: 2px solid #f2f2f2;
+        background-color: rgba(255,255,255,.3);
+        .border-radius(50%);
+        text-decoration: none;
+        color: #FFF;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        .transition(all .2s ease-in);
+    }
+    li a:hover{
+        background-color: #fff;
+    }
+    li.cycle-pager-active a{
+        background-color: #333;
+        cursor: default;
+    }
+    
+}
+
+.cycle-pager.align-center{
+    text-align: center;
+}
+.cycle-pager.align-right{
+    text-align: right;
+}

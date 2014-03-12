@@ -1,11 +1,11 @@
-            <footer class="footer">
+            <footer class="footer pos-relative">
                 <div class="container">
                     <div class="span4">
                         <nav class="footer-nav">
                             <ul>
                                 <li><a href="/">Home</a></li>
                                 <li><a href="#">Pages</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a href="styles.php">Styles</a></li>
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
@@ -19,9 +19,10 @@
                         <a class="social-button" href="#"><i class="fa fa-pinterest"></i></a>
                     </div>
                     <div class="span4 copyright">
-                        <p>&copy; Copyright &infin; Plain. Website</p>
+                        <p>&copy; Copyright &infin; Plain. Website. All rights reserved.</p>
                     </div>
                 </div>
+                <a id="scrollto-top" href="#site-body"><i class="fa fa-chevron-up"></i></a>
             </footer><!-- END .footer -->
         
         

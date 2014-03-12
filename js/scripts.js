@@ -41,7 +41,7 @@ function removeSticky(){
 $(document).ready(function() {
 
     $('.offcanvas-toggle').sidr({
-        name: 'mobile-mav',
+        name: 'mobile-nav',
         source: '.main-nav',
         body : '#site-body'
     });
@@ -126,6 +126,25 @@ $(document).ready(function() {
         api.openPopup('pinterest');
       },
       urlCurl : 'sharrre.php'
+    });
+    
+    
+    // Scroll to top
+    $("#scrollto-top").hide();
+    
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('#scrollto-top').fadeIn();
+        } else {
+            $('#scrollto-top').fadeOut();
+        }
+    });
+		
+    $('#scrollto-top').click(function (e) {
+        e.preventDefault();
+        $('body,html').animate({
+            scrollTop: 0
+        }, 700);
     });
     
 
