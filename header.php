@@ -13,7 +13,7 @@
     </head>
     <body>
         
-        <div id="site-body"><!-- this is used as a helper for the off canvas nav issues -->
+        <div id="site-body">
            
             <header class="header">
                 <div class="mobile-main-nav-wrap">
