@@ -33,12 +33,12 @@
                         </div>
                         
                     </div>
-                    <div class="span4">
+                    <div class="span4 address-footer">
                         <address>
-                        Plain. Website<br>
+                        <a href="#">Plain. Website<br>
                         187 Errday lane<br>
                         Beverly Hills CA 90210<br>
-                        1-900-877-3636
+                        1-900-877-3636</a>
                         </address>
                         <a class="map-footer" href="#"><img src="images/map-footer.png" alt="map" width="360" height="150" class="max-width"></a>
                     </div>
