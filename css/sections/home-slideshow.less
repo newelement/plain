@@ -89,3 +89,42 @@
 .cycle-pager.align-right{
     text-align: right;
 }
+
+.white-frame{
+    border: 2px solid #fff;
+    .border-radius(3px);
+    background: rgba(255,255,255,.3);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-transform: uppercase;
+    .box-sizing(border-box);
+}
+
+.white-frame:hover{
+    background: #fff;
+    color: #333;
+}
+
+.hero-button{
+    width: 220px;
+    height: 44px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-left: -110px;
+    z-index: 105;  
+}
+
+@media only screen and (max-width: 47.9375em) { /* 767px */
+    
+    .slide{ height: 432px }
+    
+}
+
+@media only screen and (max-width: 29.9375em) { /* 479px */
+    
+    .cycle-advance{ display: none }
+    
+}

@@ -5,8 +5,12 @@
     color: #f0f0f0;
     padding: 3em 0 .75em 0;
     
-    p{
+    p, address{
         .font(14);
+    }
+    
+    address{
+        font-style: normal;
     }
     
 }
@@ -14,10 +18,14 @@
 .footer-nav{
     
     ul{
+        display: inline-block;
         list-style: none;
         padding: 0;
-        margin: 0 0 2em 0;
+        margin: 0 6em 2em 0;
+        vertical-align: top;
     }
+    
+    ul:last-child{ margin-right: 0 }
     
     ul li {
         .font-nomargin(14);
@@ -29,13 +37,12 @@
         text-decoration: none;
         color: #f0f0f0;
     }
-    ul li a:hover{
+    ul li a:hover, ul li a:focus{
         color: #adadad;
     }
 }
 
 .socials-footer{
-    text-align: center;
     
     .social-button{
         display: inline-block;
@@ -44,7 +51,7 @@
         margin: 0 0 1.5em 1.25em;
     }
     
-    .social-button:hover{
+    .social-button:hover, .social-button:focus{
         color: #adadad;
     }
     
@@ -54,9 +61,29 @@
     
 }
 
-.copyright{
-    text-align: right;
-    color: #f0f0f0;
+.tweet-footer{
+    margin: 1.5em 0;
+    .font-nomargin(14);
+    color: #f0f0f0; 
+}
+
+.tweet-date{
+    .font-nomargin(11);
+    .open-sans-light;
+}
+
+.map-footer{
+    display: inline-block;
+    margin-bottom: 1.5em;
+}
+.map-footer:hover, .map-footer:focus{
+    .opacity(.7);
+}
+
+.copyright-sub{
+    border-top: 1px solid #777;
+    padding-top: 24px;
+    color: #bbb;
 }
 
 #scrollto-top{
@@ -77,4 +104,33 @@
 #scrollto-top:hover{
     background-color: #777;
     color: #fff;
+}
+
+.privacy-terms{
+    text-align: right;
+    
+    p{
+        .font(14);
+    }
+    
+    a{
+        color: #bbb;
+        text-decoration: none;
+    }
+    
+    a:hover, a:focus{
+        color: #fff;
+    }
+    
+}
+
+.vsep{
+    padding: 0 3px;
+}
+
+
+@media only screen and (max-width: 47.9375em) { /* 767px */
+    
+    .copyright, .privacy-terms{ text-align: center }
+    
 }

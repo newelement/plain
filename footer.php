@@ -9,19 +9,49 @@
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Contact</a></li>
                             </ul>
+                            <ul>
+                                <li><a href="blog.php">Blog</a></li>
+                                <li><a href="#">Work</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Staff</a></li>
+                            </ul>
                         </nav>
                     </div><!-- END .span4 -->
                     <div class="span4 socials-footer">
+                        
                         <a class="social-button" href="#"><i class="fa fa-twitter"></i></a> 
                         <a class="social-button" href="#"><i class="fa fa-instagram"></i></a> 
                         <a class="social-button" href="#"><i class="fa fa-facebook"></i></a>
                         <a class="social-button" href="#"><i class="fa fa-google-plus"></i></a>
                         <a class="social-button" href="#"><i class="fa fa-pinterest"></i></a>
+                        
+                        <div class="tweet-footer">
+                            <span class="tweet-date">Twitter - 6 days ago</span>
+                            <p class="tweet">
+                            How much did you make me? Yes! In your face, Gandhi! Leela, Bender, we're going grave robbing. Hey, guess what you're accessories to.
+                            </p>
+                        </div>
+                        
                     </div>
-                    <div class="span4 copyright">
+                    <div class="span4">
+                        <address>
+                        Plain. Website<br>
+                        Beverly Hills CA 90210<br>
+                        1-900-877-3636
+                        </address>
+                        <a class="map-footer" href="#"><img src="images/map-footer.png" alt="map" width="360" height="150" class="max-width"></a>
+                    </div>
+                </div><!-- END .container -->
+                <div class="container copyright-sub">
+                    <div class="span6">
                         <p>&copy; Copyright &infin; Plain. Website. All rights reserved.</p>
                     </div>
-                </div>
+                    <div class="span6 privacy-terms">
+                        <p>
+                            <a href="#">Privacy</a> <span class="vsep">|</span> <a href="#">Terms &amp; Conditions</a>
+                        </p>
+                    </div>
+                </div><!-- END .container.copyright -->
                 <a id="scrollto-top" href="#site-body"><i class="fa fa-chevron-up"></i></a>
             </footer><!-- END .footer -->
         

@@ -7,7 +7,7 @@
                     
                     <div class="span12">
                         
-                        <h1>Plain. Website</h1>
+                        <h1 class="intro-title">Plain. Website</h1>
                 
                         <p>
                         A website repository of things I'm tired of repeating or layouts that could be recycled because they've been coded and tested to work. I've also curated some scripts that I use regularly on websites. I may not use all of the scripts on this site, but may do so on future projects.

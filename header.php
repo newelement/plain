@@ -55,6 +55,7 @@
                     </div>
                     <a class="cycle-advance cycle-prev" href="#prev"><i class="fa fa-chevron-left"></i><span>Prev</span></a>
                     <a class="cycle-advance cycle-next" href="#next"><span>Next</span><i class="fa fa-chevron-right"></i></a>
+                    <a class="button white-frame hero-button" href="styles.php">View Styles</a>
                     <ul class="cycle-pager align-center"></ul>
                     <?php } else { ?>
                     <div class="secondary-page-hero">

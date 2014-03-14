@@ -1,3 +1,17 @@
+/*!
+Theme Name: Plain.
+Theme URI: http://plain.newelementdesigns.com
+Author: Don Jones
+Author URI: http://newelementdesigns.com/
+Description: A simple theme compiled by CodeKit. Uses LESS.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
 /* DO NOT REMOVE */
 @import 'modules/base';
 /* ------------- */
@@ -8,6 +22,16 @@
     margin: 0 auto;
     padding: 0 .625em;
     .box-sizing(border-box)
+}
+/* Smaller than the container */
+@media @containerMQ {
+    
+    .container{ 
+        width: 100%; 
+        padding-left: 1.25em;
+        padding-right: 1.25em
+    }
+    
 }
 
 /* ---- MODULES - Import the ones you need. ---- */
@@ -55,73 +79,3 @@
 /* ---- FOOTER ---- */
 @import 'sections/footer';
 
-
-/* ---- MEDIA QUERIES ---- */
-
-/* Smaller than the container */
-@media @containerMQ {
-    
-    .container{ 
-        width: 100%; 
-        padding-left: 1.25em;
-        padding-right: 1.25em
-    }
-    
-}
-
-@media only screen and (max-width: 56.25em) { /* 900px */
-    
-    .main-nav{
-    
-        > ul{
-            .font-nomargin(19,24);
-        }
-        
-        > ul > li{
-            margin-left: 1.8em;
-        }
-    }
-    
-}
-
-@media only screen and (max-width: 47.9375em) { /* 767px */
-    
-    .logo{
-        width: 60%;
-    }
-    .mobile-nav-button{ 
-        display: inline-block;
-        width: 40%
-    }
-    .main-nav{ display: none }
-    .slide{ height: 432px }
-    
-    .shares{ 
-        width: 100%;
-        margin-bottom: 1.5em;
-    }
-    .read-more{
-        width: 100%;
-        float: left;
-        text-align: left;
-        margin-bottom: 1.5em;
-    }
-    .share-name{ display: none; }
-    
-    .copyright{ text-align: center }
-    
-}
-
-@media only screen and (max-width: 29.9375em) { /* 479px */
-    
-    img.align-right,
-    img.align-left,
-    a img.align-right,
-    a img.align-left{
-        display: block;
-        float: none;
-        clear: both;
-        margin: 0 auto;
-    }
-    
-}
