@@ -11,3 +11,5 @@ I'm still working on some of the file/folder organization, so please excuse the 
 ![Plain screenshot](https://raw.github.com/newelement/plain/master/screenshot-full.png)
 
 Big thanks/props/monster shoutout to HTML5 Boilerplate, Bootstrap and all web designers and developers.
+
+License: [WTFPL](http://www.wtfpl.net/txt/copying/)
