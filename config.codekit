@@ -10372,6 +10372,16 @@
 		"outputAbbreviatedPath": "\/readme.html",
 		"outputPathIsSetByUser": 0
 		},
+	"\/screenshot-full.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 521310,
+		"inputAbbreviatedPath": "\/screenshot-full.png",
+		"outputAbbreviatedPath": "\/screenshot-full.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/screenshot.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -10380,7 +10390,7 @@
 		"inputAbbreviatedPath": "\/screenshot.png",
 		"outputAbbreviatedPath": "\/screenshot.png",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/sharrre.php": {
 		"fileType": 8192,
