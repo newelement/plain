@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Plain. Website | Front-End</title>
+        <title>Plain. Website</title>
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
