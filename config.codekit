@@ -10277,6 +10277,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/functions.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/functions.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -10284,6 +10292,16 @@
 		"inputAbbreviatedPath": "\/header.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
+		},
+	"\/images\/map-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222444,
+		"inputAbbreviatedPath": "\/images\/map-footer.png",
+		"outputAbbreviatedPath": "\/images\/map-footer.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/plain.jpg": {
 		"fileType": 16384,
@@ -10353,6 +10371,16 @@
 		"inputAbbreviatedPath": "\/readme.md",
 		"outputAbbreviatedPath": "\/readme.html",
 		"outputPathIsSetByUser": 0
+		},
+	"\/screenshot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/screenshot.png",
+		"outputAbbreviatedPath": "\/screenshot.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/sharrre.php": {
 		"fileType": 8192,
