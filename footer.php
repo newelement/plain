@@ -19,17 +19,21 @@
                     </div><!-- END .span4 -->
                     <div class="span4 socials-footer">
                         
-                        <a class="social-button" href="#"><i class="fa fa-twitter"></i></a> 
-                        <a class="social-button" href="#"><i class="fa fa-instagram"></i></a> 
-                        <a class="social-button" href="#"><i class="fa fa-facebook"></i></a>
-                        <a class="social-button" href="#"><i class="fa fa-google-plus"></i></a>
-                        <a class="social-button" href="#"><i class="fa fa-pinterest"></i></a>
+                        <ul class="social-buttons-footer">
+                            <li><a class="social-button" href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
+                            <li><a class="social-button" href="#"><i class="fa fa-instagram fa-fw"></i></a></li> 
+                            <li><a class="social-button" href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
+                            <li><a class="social-button" href="#"><i class="fa fa-google-plus fa-fw"></i></a></li>
+                            <li><a class="social-button" href="#"><i class="fa fa-pinterest fa-fw"></i></a></li>
+                        </ul>
                         
                         <div class="tweet-footer">
                             <span class="tweet-date">Twitter - 6 days ago</span>
-                            <p class="tweet">
-                            How much did you make me? Yes! In your face, Gandhi! Leela, Bender, we're going grave robbing. Hey, guess what you're accessories to.
-                            </p>
+                            <a href="#">
+                                <p class="tweet">
+                                How much did you make me? Yes! In your face, Gandhi! Leela, Bender, we're going grave robbing. Hey, guess what you're accessories to.
+                                </p>
+                            </a>
                         </div>
                         
                     </div>
