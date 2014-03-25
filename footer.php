@@ -11,6 +11,7 @@
                             </ul>
                             <ul>
                                 <li><a href="blog.php">Blog</a></li>
+                                <li><a href="video.php">Video</a></li>
                                 <li><a href="#">Work</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Staff</a></li>

@@ -30,7 +30,7 @@
                             <li><a href="#">Pages <i class="fa fa-angle-down"></i></a>
                                 <ul>
                                     <li><a href="blog.php">Blog</a></li>
-                                    <li><a href="#">Page Type 2</a></li>
+                                    <li><a href="video.php">Video</a></li>
                                     <li><a href="#">Page Type 3</a></li>
                                 </ul>
                             </li>
